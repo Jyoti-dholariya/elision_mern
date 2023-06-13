@@ -1,7 +1,6 @@
 const express = require('express');
 const router = new express.Router();
 const multer = require('multer');
-const sharp = require('sharp');
 const bcrypt = require('bcryptjs'); 
 const users = require('../models/schema');
 const developers = require('../models/devschema');

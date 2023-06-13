@@ -19,10 +19,6 @@ app.use(express.urlencoded({extended: false}));
 app.use(express.static(__dirname + '/public'));
 
 
-// if(process.env.NODE_ENV == "production"){
-//     app.use(express.static("frontend/build"))
-// }
-
 
 app.listen(port,(req,res)=>{
     console.log(`server is start port number ${port}`);
