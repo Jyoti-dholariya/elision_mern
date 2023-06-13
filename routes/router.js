@@ -6,7 +6,7 @@ const users = require('../models/schema');
 const developers = require('../models/devschema');
 const newapp = require('../models/apps');
 const registerdata = require('../models/register');
-
+const sharp = require('sharp')
 
  // sigin form data
 router.post('/register',async(req,res)=>{
